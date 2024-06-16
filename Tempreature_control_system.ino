@@ -1,7 +1,7 @@
 #include <IRremote.h>
 #include<LiquidCrystal.h>
 #define RECV_PIN 4
-// https://www.tinkercad.com/things/1qdN8m5OP8C-lab-project/editel?sharecode=b2D-tkX3H--Y8ILiVGQ2A2HkT5shwK25pCwPf_l5sA0
+
 LiquidCrystal lcd(13,12,11,10,9,8); // LCD Pins
 
 const int tempIn = A0; // Pin for the temp sensor
