@@ -5,7 +5,7 @@ This project is a temperature control system that uses an IR remote to set the t
 ## How to Use
 
 1. Connect all the components as per the circuit diagram.
-2. Upload the code to the Arduino board.
+2. Upload the code to the Arduino board (you can use Tinkercard).
 3. Use the IR remote to adjust the temperature threshold for the fan.
 4. Observe the temperature on the LCD and the status of the LEDs.
 5. The fan speed will adjust based on the temperature readings.
