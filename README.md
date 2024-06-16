@@ -13,13 +13,7 @@ This project is a temperature control system that uses an IR remote to set the t
 - IR Remote
 - Various resistors and connecting wires
 
-## Setup
 
-The project involves connecting an IR receiver to receive signals from the IR remote, an LCD screen to display the current temperature and fan status, a temperature sensor to read the ambient temperature, and LEDs to indicate different temperature ranges. Additionally, a DC motor (representing a fan) will be controlled based on the temperature readings.
-
-## Circuit Diagram
-
-![Circuit Diagram](https://www.tinkercad.com/things/1qdN8m5OP8C-lab-project/editel?sharecode=b2D-tkX3H--Y8ILiVGQ2A2HkT5shwK25pCwPf_l5sA0)
 
 ## Code Explanation
 
@@ -69,8 +63,8 @@ The code includes two libraries:
 
 ### IR Remote Codes
 
-- `0xF708BF00`: Decrease the `tempFan` threshold.
-- `0xF50ABF00`: Increase the `tempFan` threshold.
+- `0xF708BF00`: Which is the Arrow pointing dowm, Decrease the `tempFan` threshold.
+- `0xF50ABF00`: Which is the Arrow pointing up, Increase the `tempFan` threshold.
 
 ## How to Use
 
@@ -80,6 +74,3 @@ The code includes two libraries:
 4. Observe the temperature on the LCD and the status of the LEDs.
 5. The fan speed will adjust based on the temperature readings.
 
-## Conclusion
-
-This project demonstrates a simple yet effective way to control a fan based on temperature using an IR remote, providing a practical application for home automation and climate control systems.
