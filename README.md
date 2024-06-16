@@ -30,7 +30,7 @@ This project is a temperature control system that uses an IR remote to set the t
 
 The code includes two libraries:
 - `IRremote.h` for handling IR remote functionality.
-- `LiquidCrystal.h` for interfacing with the LCD.
+- `LiquidCrystal.h` for interfacing with the LCD Screen.
 
 ### Pin Definitions
 
