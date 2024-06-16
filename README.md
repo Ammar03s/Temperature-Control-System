@@ -2,6 +2,15 @@
 
 This project is a temperature control system that uses an IR remote to set the temperature threshold at which a fan will be activated. It also displays the current temperature on an LCD screen and uses LEDs to indicate the temperature range.
 
+## How to Use
+
+1. Connect all the components as per the circuit diagram.
+2. Upload the code to the Arduino board.
+3. Use the IR remote to adjust the temperature threshold for the fan.
+4. Observe the temperature on the LCD and the status of the LEDs.
+5. The fan speed will adjust based on the temperature readings.
+
+
 ## Components
 
 - Arduino Board
@@ -66,11 +75,5 @@ The code includes two libraries:
 - `0xF708BF00`: Which is the Arrow pointing dowm, Decrease the `tempFan` threshold.
 - `0xF50ABF00`: Which is the Arrow pointing up, Increase the `tempFan` threshold.
 
-## How to Use
 
-1. Connect all the components as per the circuit diagram.
-2. Upload the code to the Arduino board.
-3. Use the IR remote to adjust the temperature threshold for the fan.
-4. Observe the temperature on the LCD and the status of the LEDs.
-5. The fan speed will adjust based on the temperature readings.
 
