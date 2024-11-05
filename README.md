@@ -24,7 +24,7 @@ This project is a temperature control system that uses an IR remote to set the t
 
 
 
-## Code Explanation
+## Code Overview
 
 ### Libraries
 
