@@ -1,4 +1,4 @@
-# Temperature Control System with IR Remote
+# Temperature Control System
 
 This project is a temperature control system that uses an IR remote to set the temperature threshold at which a fan will be activated. It also displays the current temperature on an LCD screen and uses LEDs to indicate the temperature range.
 
